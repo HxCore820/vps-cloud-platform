@@ -20,7 +20,7 @@ jobs:
           unzip project.zip -d .
       
       - name: Remove zip file
-        run: rm vps-cloud-platform.zip
+        run: rm project.zip
 
       - name: List files (debug)
         run: ls -la
